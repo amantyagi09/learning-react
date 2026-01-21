@@ -1,0 +1,13 @@
+.my-div{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.my-btn {
+    margin: 5px;
+}
