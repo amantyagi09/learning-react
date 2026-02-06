@@ -19,10 +19,7 @@ function Github() {
         {data.length > 0 ? (
           <ul className="grid gap-1">
             {data.map((repo, index) => (
-              <li
-                key={index}
-                className="bg-gray-200  "
-              >
+              <li key={index} className="bg-gray-200  ">
                 <span className="text-gray-800 font-medium">{repo}</span>
               </li>
             ))}
